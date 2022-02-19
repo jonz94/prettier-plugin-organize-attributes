@@ -48,7 +48,9 @@ function wrapParser(parser: Parser<any>): Parser<any> {
   };
 }
 
-function transformPostParse(parse: Parser<any>["parse"]): Parser<any>["parse"] {
+export function transformPostParse(
+  parse: Parser<any>["parse"]
+): Parser<any>["parse"] {
   return (text, parsers, options) =>
     transformRootNode(
       parse(text, parsers, options),

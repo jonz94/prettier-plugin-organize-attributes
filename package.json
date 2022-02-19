@@ -1,11 +1,11 @@
 {
-  "name": "prettier-plugin-organize-attributes",
+  "name": "@jonz94/prettier-plugin-organize-attributes",
   "version": "0.0.5",
-  "description": "Organize your HTML attributes autmatically with Prettier 🧼",
+  "description": "A patched https://github.com/NiklasPor/prettier-plugin-organize-attributes package to make some internal function export.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NiklasPor/prettier-plugin-organize-attributes"
+    "url": "https://github.com/jonz94/prettier-plugin-organize-attributes"
   },
   "author": {
     "name": "Niklas Portmann",
