@@ -1,6 +1,6 @@
 {
   "name": "@jonz94/prettier-plugin-organize-attributes",
-  "version": "0.0.5",
+  "version": "0.0.5-patch.0",
   "description": "A patched https://github.com/NiklasPor/prettier-plugin-organize-attributes package to make some internal function export.",
   "license": "MIT",
   "repository": {
